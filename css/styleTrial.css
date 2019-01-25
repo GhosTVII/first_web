@@ -1,0 +1,26 @@
+.body__img {
+    background: url("bg.jpg")
+}
+.color-red {
+    color: #661000;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font: 24px Tahoma;
+}
+.autor__blue {
+    color: blue;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font: 15px Tahoma;
+}
+
+.main_icon__wow {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
