@@ -32,55 +32,36 @@
 
 <body>
 
-<section class="header">
-    <div class="container">
-        <div class="header-menu">
-            <nav>
-                <a class="a__header active" href="/">Главная</a>
-                <a class="a__header" href="task.add.html">Размещение</a>
-                <a class="a__header" href="saving.html">Работодателю</a>
-                <a class="a__header" href="auth.register.html">Регтстрация</a>
-                <a class="a__header" href="earn.html">Работодателю</a>
-            </nav>
-        </div>
 
-        <div class="header-right">
-            <a class="a__header" href="user.profile.html">Денис</a>
-            <div class="city">
-                <span>Ваш город</span>
-                <div class="cities">
-                    <div class="wrapper">
-                        <a href="#">Абакан</a>
-                        <a href="#">Москва</a>
-                        <a href="#">Санкт-Петербург</a>
+
+<section class="auth_main">
+    <div class="container">
+        <div class="auth-center">
+            <div class="auth-logo">
+                <a href="/"><img src="img/logo/logo_sm.png" alt="Логотип"></a>
+            </div>
+            <div class="auth-block">
+                <div class="auth-login">
+                    <span>Вход</span>
+                    <form action="" method="post">
+                        <input type="text" placeholder="Номер телефона" required>
+                        <input type="password" placeholder="Пароль" required>
+                        <button class="auth-button">Вход</button>
+                        <div class="auth-remember">
+                            <input type="checkbox" id="auth-remember">
+                            <lable for="auth-remember">запомнить</lable>
+                        </div>
+
+                    </form>
+                    <div class="auth-error">
+                        <span>Не верно!</span>
+                    </div>
+                    <div class="auth-bottom">
+                        <a href="password.email.html">Вспомнить пароль</a>
+                        <a href="auth.register.html">Регистрация</a>
                     </div>
                 </div>
             </div>
-            <div class="sub-end text-center">
-                <span class="text-bold">0</span><br>
-                <span>Остаток дней</span>
-            </div>
-            <a class="a__header" href="auth.login.html">Вход</a>
-            <a class="a__header" href="auth.page.logout.html">Выход</a>
-        </div>
-    </div>
-
-</section>
-
-<section class="main">
-    <div class="container">
-
-    </div>
-</section>
-
-<section class="footer">
-    <div class="container">
-        <div class="footer-text">
-            &copy; 2018 сайт вакансий "МОЙ ДА МЕТИ"
-        </div>
-        <div class="footer-contacts">
-            <a href="tel:89852296640">8(985)229-66-40</a>
-            <a href="mailto:moydameti@yandex.ru">moydameti@yandex.ru</a>
         </div>
     </div>
 </section>
