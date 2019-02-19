@@ -1,6 +1,7 @@
 $(function() {
 
     employmentGetInput();
+    $('.user-right').css('height',$('.user-left').height());
 
     $('#graph-work').mask("99/99");
 
@@ -16,6 +17,10 @@ $(function() {
 
     $('#employment-div select').on('change', function () {
         employmentGetInput($('#employment-div select').val());
+    });
+
+    $('#ham8').on("click", function () {
+        $(".hamburger-menu").toggleClass('active');
     });
 
 });
